@@ -98,7 +98,7 @@ void byte int long char short float double String StringBuffer StringBuilder Arr
 
 ##### 内存结构
 
-- 虚拟机的内存结构，堆内存、栈内存、方法区、常量池等
+- 虚拟机的内存结构，堆内存、栈内存、方法区、常量池等：http://www.i3geek.com/archives/1201
 - JVM中的内存设置和分配：http://www.i3geek.com/archives/1138
 - 分别存储什么，对象和基本成员变量的存储区域
 
