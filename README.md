@@ -203,9 +203,9 @@ void byte int long char short float double String StringBuffer StringBuilder Arr
 
 ## 计算机网络
 
-- tcp,udp区别
+- ip,tcp,udp,tcp/ip区别：http://www.i3geek.com/archives/1209
 - 三次握手，四次关闭（为什么三次开始却要四次关闭），丢包,粘包，容量控制，拥塞控制
-- HTTP请求和响应的全过程
+- HTTP请求和响应的全过程，和tcp/ip的关系：http://www.i3geek.com/archives/1213
 - HTTP的返回码 2xx 3xx 4xx 5xx
 - osi七层模型以及tcp/ip四层模型(每一层主要功能,传输的内容,主要协议,主要应用)
 - 网划分
@@ -281,3 +281,4 @@ void byte int long char short float double String StringBuffer StringBuilder Arr
 - 设计模式的日常使用，举例说明
 - 如何估算网站的最大并发数
 - 设计一个秒杀系统
+- 远程通信的方式及选择——RPC WebServer HttpRequest RMI JMS：http://www.i3geek.com/archives/1218
