@@ -104,6 +104,8 @@ void byte int long char short float double String StringBuffer StringBuilder Arr
 
 ##### GC垃圾回收
 
+`http://www.i3geek.com/archives/1220`
+
 - gc的概念，什么需要回收？
 - 怎么判断被回收？有哪些方法
 - 引用计数方法，对象引用遍历和分代回收方法是什么
