@@ -211,7 +211,7 @@ void byte int long char short float double String StringBuffer StringBuilder Arr
 - HTTP的返回码 2xx 3xx 4xx 5xx
 - osi七层模型以及tcp/ip四层模型(每一层主要功能,传输的内容,主要协议,主要应用)
 - 网划分
-- session和cookie的区别
+- session和cookie的区别:http://www.importnew.com/18943.html#comment-491318
 - HTTP请求中Session实现原理(利用cookie）
 - 如果客户端禁止Cookie能实现Session，cookie对session的影响
 - http的get和post区别：http://www.i3geek.com/archives/182
