@@ -32,7 +32,7 @@ void byte int long char short float double String StringBuffer StringBuilder Arr
 
 #### 继承和接口
 
-- interface和abstrat class抽象类的意义与区别
+- interface和abstrat class抽象类的意义与区别:http://www.i3geek.com/archives/1230
 - 实现接口，继承类的规则（单继承多实现）
 - 接口继承接口
 - 继承多个抽象类？
