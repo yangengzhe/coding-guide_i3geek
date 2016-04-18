@@ -23,7 +23,8 @@ void byte int long char short float double String StringBuffer StringBuilder Arr
 - HashMap实现原理
 - HashMap中Key的约束
 - HashMap与HashTable的区别
-- HashMap与HashSet的关系
+- HashMap与HashSet的关系:http://www.importnew.com/6931.html hashSet是由hashmap实现的
+- HashSet的原理：http://www.importnew.com/19208.html
 - ArrayList的用法
 - List、Set和Map的继承关系
 - Collection 和 Collections的区别
@@ -240,7 +241,7 @@ void byte int long char short float double String StringBuffer StringBuilder Arr
 
 ## 设计模式
 
-- 单例模式
+- 单例模式:http://www.importnew.com/18872.html
 - 工厂模式、抽象工厂模式以及区别
 - 装饰器模式：http://www.i3geek.com/archives/920
 
