@@ -18,8 +18,11 @@ void byte int long char short float double String StringBuffer StringBuilder Arr
 - 面向过程、面向对象、基于对象和继承、派生、多态：http://www.i3geek.com/archives/580
 - 编程思想，幻数：http://www.i3geek.com/archives/622
 
-#### 集合类：http://www.i3geek.com/archives/616
+#### 集合类：
 
+	http://www.i3geek.com/archives/616
+	http://www.i3geek.com/archives/1233
+ 
 - HashMap实现原理
 - HashMap中Key的约束
 - HashMap与HashTable的区别
