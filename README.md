@@ -115,8 +115,8 @@ void byte int long char short float double String StringBuffer StringBuilder Arr
 - 怎么判断被回收？有哪些方法
 - 引用计数方法，对象引用遍历和分代回收方法是什么
 - 怎么避免对象循环引用的回收
-- Java中的内存溢出是如何造成的
-- Java中的内存溢出和C＋＋中的内存溢出，是一个概念吗？
+- Java中的内存溢出是如何造成的：http://www.i3geek.com/archives/1241
+- Java中的内存溢出和C＋＋中的内存溢出，是一个概念吗？：http://www.i3geek.com/archives/1241
 
 ##### CLASSLOADER
 
