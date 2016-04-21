@@ -68,6 +68,7 @@ void byte int long char short float double String StringBuffer StringBuilder Arr
 
 #### 其他
 
+- 四种引用，强引用、软引用、弱引用和虚引用 ：http://www.i3geek.com/archives/1239
 - String与StringBuilder,StringBuffer的区别
 - StringBuffer的实现方式，容量扩充
 - 对于 String str ="1"+"2"; 产生了几个对象
