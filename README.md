@@ -289,3 +289,7 @@ void byte int long char short float double String StringBuffer StringBuilder Arr
 - 如何估算网站的最大并发数
 - 设计一个秒杀系统
 - 远程通信的方式及选择——RPC WebServer HttpRequest RMI JMS：http://www.i3geek.com/archives/1218
+
+## 算法
+
+主要使用的OJ是牛客网，源码部分在nowcoder中
