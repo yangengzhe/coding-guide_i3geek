@@ -293,3 +293,7 @@ void byte int long char short float double String StringBuffer StringBuilder Arr
 ## 算法
 
 主要使用的OJ是牛客网，源码部分在nowcoder中
+
+- 递归完成前后中序的遍历
+- 深度优先遍历（栈）、广度优先遍历（队列）
+- 红黑树
