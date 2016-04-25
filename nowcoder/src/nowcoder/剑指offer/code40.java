@@ -41,6 +41,7 @@ public class code40 {
                 num2[0] =num2[0]^array[i];
         }
     }
+    
     public void FindNumsAppearOnce2(int [] array,int num1[] , int num2[]) {
         num1[0]=0;
         num2[0]=0;
