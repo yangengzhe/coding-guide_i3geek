@@ -227,13 +227,14 @@ void byte int long char short float double String StringBuffer StringBuilder Arr
 ## 数据库
 
 - 范式：http://www.i3geek.com/archives/108
-- 什么是事务？事务的四种特性和应用
+- 什么是事务？事务的四种特性和应用：事务（transaction）是数据库管理系统的执行单位，可以是一个数据库操作（如Select操作）或者是一组操作序列。事务ACID属性，即原子性（Atomicity）、一致性(Consistency)、隔离性（Isolation）、持久性（Durability）。
 - 乐观锁，悲观锁
 - 表关联时，内连接，左连接，右连接怎么理解？
 - 什么是索引以及索引的实现(B+树介绍、和B树、R树区别）（聚集和非聚集）：http://www.i3geek.com/archives/132
 - 什么是视图，视图的作用，可以在视图上建立索引吗
 - 数据库的分库分表：http://www.i3geek.com/archives/1108
 - mysql的分库分表架构：http://www.i3geek.com/archives/1111
+- 数据库隔离级别：隔离级别就是对对事务并发控制的等级。ANSI/ ISO SQL将其分为串行化（SERIALIZABLE）、可重复读（REPEATABLE READ）、读已提交（READ COMMITED）、读未提交（READ UNCOMMITED）四个等级
 
 ## 操作系统
 
