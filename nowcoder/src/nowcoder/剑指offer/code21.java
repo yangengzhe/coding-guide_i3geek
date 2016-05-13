@@ -2,6 +2,12 @@ package nowcoder.剑指offer;
 
 import java.util.ArrayList;
 
+/**
+ * 顺时针打印数组 ★★★★
+ * @date 2016年5月13日 下午5:22:51
+ * @author yangengzhe
+ *
+ */
 public class code21 {
     public ArrayList<Integer> printMatrix(int [][] matrix) {
         ArrayList<Integer> result = new ArrayList<Integer>();
