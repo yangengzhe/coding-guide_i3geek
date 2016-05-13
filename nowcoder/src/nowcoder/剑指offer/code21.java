@@ -42,6 +42,5 @@ public class code21 {
         for (Integer integer : re) {
             System.out.println(integer);
         }
-        
     }
 }
