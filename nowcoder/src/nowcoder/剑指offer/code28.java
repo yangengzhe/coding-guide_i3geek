@@ -1,55 +1,38 @@
 package nowcoder.剑指offer;
 
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.TreeSet;
 
 /**
- * 字符串的排列 ★★★★★
+ * 二叉搜索树与双向链表 ★★★
  * 
- * 输入一个字符串,按字典序打印出该字符串中字符的所有排列。例如输入字符串abc,则打印出由字符a,b,c所能排列出来的所有字符串abc,acb,bac,bca,cab和cba。 结果请按字母顺序输出。 
- * 输入描述：
- * 输入一个字符串,长度不超过9(可能有字符重复),字符只包括大小写字母。
+ * 输入一棵二叉搜索树，将该二叉搜索树转换成一个排序的双向链表。要求不能创建任何新的结点，只能调整树中结点指针的指向。
  * 
- * 思路：递归思想（字符串分成 第一个字符 和 后面的字符 两部分）
- *      第一步：求出所有可能出现在第一个位置的字符，即把后面的字符都和第一个交换
- *      第二步：求后面所有字符的排列顺序组合
- *      第三步：恢复原序列，递归调用
- * 排序：TreeSet利用TreeMap实现 通过红黑树，字典序
+ * 思路 ： 1. 中序遍历，二叉搜索树的中序遍历就是排好序的
  * 
- * @date 2016年5月22日 下午7:07:02
+ * @date 2016年5月18日 下午7:17:12
  * @author yangengzhe
  *
  */
 public class code28 {
-    private TreeSet<String> result = new TreeSet<String>();
-    public void fun(char[] strs,int begin){
-        if(begin == strs.length){
-            result.add(new String(strs));
-        }else{
-            for(int i=begin;i!=strs.length;i++){
-                char temp = strs[i];
-                strs[i] = strs[begin];
-                strs[begin] = temp;
-                
-                fun(strs, begin+1);
-                
-                temp = strs[i];
-                strs[i] = strs[begin];
-                strs[begin] = temp;
-            }
-        }
-        
+    ArrayList<TreeNode> list = new ArrayList<TreeNode>();
+    public void fun(TreeNode node){
+        if(node == null) return;
+            fun(node.left);
+            list.add(node);
+            fun(node.right);
     }
-    public ArrayList<String> Permutation(String str) {
-        ArrayList<String> arrange = new ArrayList<String>();
-        if(str == null || str.isEmpty()) return arrange;
-        char[] strs = str.toCharArray();
-        fun(strs,0);
-        Iterator<String> it = result.iterator();
-        while(it.hasNext()){
-            arrange.add(it.next());
+    public TreeNode Convert(TreeNode pRootOfTree) {
+        if(pRootOfTree == null) return null;
+        fun(pRootOfTree);
+        TreeNode temp = null;
+        for(int i=0;i<list.size();i++){
+            list.get(i).left = temp;
+            temp = list.get(i);
+            if(i+1 == list.size())
+                list.get(i).right = null;
+            else
+                list.get(i).right = list.get(i+1);
         }
-        return arrange;
+        return list.get(0);
     }
 }
