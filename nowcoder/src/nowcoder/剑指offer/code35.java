@@ -26,6 +26,7 @@ public class code35 {
         if(number == 1) return true;
         else return false;
     }
+    //空间换时间
     public int GetUglyNumber_Solution(int index) {
         if(index<1) return 0;
         ArrayList<Integer> list = new ArrayList<Integer>();
