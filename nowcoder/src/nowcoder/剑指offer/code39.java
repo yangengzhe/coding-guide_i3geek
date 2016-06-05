@@ -12,7 +12,7 @@ package nowcoder.剑指offer;
  * @author yangengzhe
  *
  */
-public class code38 {
+public class code39 {
     public int findFirst(int[] array,int k,int start,int end){
         if(start<0 || start>end) return -1;
         int mid = (start+end)/2;
