@@ -14,11 +14,11 @@ import java.util.ArrayList;
  * @author yangengzhe
  *
  */
-public class code40 {
+public class code42 {
     public static void main(String args[]) {
         int array[]={2,4,3,6,3,2,5,5};
         int num1[] = {0},num2[]={0};
-        code40 c = new code40();
+        code42 c = new code42();
         c.FindNumsAppearOnce(array, num1, num2);
     }
   //num1,num2分别为长度为1的数组。传出参数
