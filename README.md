@@ -23,7 +23,7 @@ void byte int long char short float double String StringBuffer StringBuilder Arr
 	http://www.i3geek.com/archives/616
 	http://www.i3geek.com/archives/1233
  
-- HashMap实现原理
+- HashMap实现原理,源码阅读 http://www.i3geek.com/archives/1262
 - HashMap中Key的约束
 - HashMap与HashTable的区别
 - HashMap与HashSet的关系:http://www.importnew.com/6931.html hashSet是由hashmap实现的
