@@ -1,4 +1,4 @@
-package com.i3geek.pattern.singleton.client;
+package com.i3geek.pattern.singleton;
 
 import com.i3geek.pattern.singleton.singleton.HungrySingleton;
 
