@@ -1,7 +1,7 @@
-package com.i3geek.pattern.proxy.staticProxy.proxy;
+package com.i3geek.pattern.proxy.staticProxy;
 
-import com.i3geek.pattern.proxy.staticProxy.real.Car;
-import com.i3geek.pattern.proxy.staticProxy.real.Moveable;
+import com.i3geek.pattern.proxy.real.Car;
+import com.i3geek.pattern.proxy.real.Moveable;
 
 
 public class CarImplement implements Moveable {

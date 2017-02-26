@@ -1,4 +1,4 @@
-package com.i3geek.pattern.proxy.dynamicProxy.jdk.proxy;
+package com.i3geek.pattern.proxy.dynamicProxy.jdk;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

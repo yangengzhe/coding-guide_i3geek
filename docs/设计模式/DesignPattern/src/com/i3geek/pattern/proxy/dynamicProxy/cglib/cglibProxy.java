@@ -1,4 +1,4 @@
-package com.i3geek.pattern.proxy.dynamicProxy.cglib.proxy;
+package com.i3geek.pattern.proxy.dynamicProxy.cglib;
 
 import java.lang.reflect.Method;
 

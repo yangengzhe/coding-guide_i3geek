@@ -1,6 +1,6 @@
-package com.i3geek.pattern.proxy.staticProxy.proxy;
+package com.i3geek.pattern.proxy.staticProxy;
 
-import com.i3geek.pattern.proxy.staticProxy.real.Car;
+import com.i3geek.pattern.proxy.real.Car;
 
 
 public class CarExtend extends Car {
