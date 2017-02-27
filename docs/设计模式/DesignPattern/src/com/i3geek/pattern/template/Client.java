@@ -1,4 +1,4 @@
-package com.i3geek.pattern.template.client;
+package com.i3geek.pattern.template;
 
 import com.i3geek.pattern.template.Abstract.Base;
 import com.i3geek.pattern.template.Concrete.Coffee;

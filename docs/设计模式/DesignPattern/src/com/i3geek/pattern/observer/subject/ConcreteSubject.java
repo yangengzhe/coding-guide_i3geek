@@ -19,6 +19,7 @@ public class ConcreteSubject extends AbstractSubject {
     
     public void setSubjectState(String subjectState) {
         this.subjectState = subjectState;
+        System.out.println("通知大家了！");
         this.notifyObservers();
     }
     

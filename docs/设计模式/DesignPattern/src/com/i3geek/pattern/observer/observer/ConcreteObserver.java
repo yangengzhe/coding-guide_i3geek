@@ -8,8 +8,8 @@ public class ConcreteObserver implements Observer {
     String ObserverState;
     @Override
     public void update(AbstractSubject subject) {
-        // TODO Auto-generated method stub
         this.ObserverState = ((ConcreteSubject)subject).getSubjectState();
+        System.out.println("收到更新·通知："+ObserverState);
     }
 
 }

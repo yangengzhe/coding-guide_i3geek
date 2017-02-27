@@ -1,4 +1,4 @@
-package com.i3geek.pattern.strategy.client;
+package com.i3geek.pattern.strategy;
 
 import com.i3geek.pattern.strategy.concreteStrategy.quickSort;
 import com.i3geek.pattern.strategy.concreteStrategy.selectSort;
