@@ -7,7 +7,12 @@ import java.util.TreeSet;
 public class test {
     public static void main(String args[]){
         Scanner scanner = new Scanner(System.in);
-        int n = Integer.valueOf(scanner.nextLine());
+        int n = scanner.nextInt();
+        int m = scanner.nextInt();
+        for(int i=0;i<n;i++){
+            String string = scanner.nextLine();
+            String[] str_arry = string.split(" ");
+        }
         Set<Long> set = new TreeSet<Long>();
         int i=0;
         while(i<n && scanner.hasNextLong()){
